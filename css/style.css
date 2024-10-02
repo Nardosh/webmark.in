@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(30 32 40);
+}
+
+.header {
+    color: grey;
+}
+
+.nav-link {
+    color: grey;
+}
+
+.bg-hero-image {
+    background-image: url('img/business.webp');
+    background-position: 50%;
+    position: relative;
+    height: 80vh;
+    z-index: -1;
+}
+
+.bg_front {
+    display: flex;
+}
+
+.hero_heading {
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+}
+
+.bg_para {
+    color: rgb(160 161 178);
+    font-weight: 300;
+}
+
+.background-image {
+    position: relative;
+    height: 90vh;
+    /* Full height of the viewport */
+    overflow: hidden;
+    background-image: url("../img/business.webp");
+    /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent overlay */
+    z-index: 1;
+    /* Keep it behind the text */
+}
+
+.text-overlay {
+    position: relative;
+    z-index: 2;
+    /* Bring text above the background */
+    color: white;
+    /* Change text color as needed */
+    text-align: center;
+    padding: 20px;
+    margin-top: 25vh;
+}
+
+h1,
+p {
+    opacity: 1;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    /* Adjust size as needed */
+}
+
+p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: rgb(204, 204, 204);
+    /* Adjust size as needed */
+}
+
+.dig_trans {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.dig_trans_heading {
+    color: white;
+}
+
+.dig_trans_para {
+    color: white;
+}
+
+.card {
+    background-color: rgb(30 32 40);
+}
+
+.card-title {
+    color: white;
+}
+
+.card {
+    box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.2);
+    /* Horizontal offset, vertical offset, blur radius, color */
+    transition: box-shadow 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    /* Increased shadow on hover */
+}
+
+.head_para {
+    text-align: center;
+}
+
+
+/* 
+
+.choose_us_body {
+    display: flex;
+}
+
+.imgchoose {
+    width: 50rem;
+    border-radius: 36px;
+}
+
+.chooseUs_heading {
+    font-weight: 700;
+    color: white;
+    line-height: 1;
+    font-size: 3rem;
+    margin-top: 6rem;
+} */
+
+.container.choose_us_body {
+    margin-top: 8rem;
+    display: flex;
+    /* Use Flexbox for layout */
+    justify-content: space-between;
+    /* Space between items */
+    align-items: center;
+    /* Align items vertically in the center */
+    padding: 2rem;
+    /* Add padding around the container */
+    /* background-color: #f9f9f9; */
+    /* Light background color */
+    border-radius: 36px;
+    /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+}
+
+.chooseUs_heading {
+    font-size: 3rem;
+    /* Larger font size for the heading */
+    color: white;
+    font-weight: 700;
+    margin: 39px;
+    /* Remove default margin */
+    /* color: #333; */
+    /* Dark color for the text */
+    flex: 1;
+    /* Allow heading to take available space */
+}
+
+.choose_ {
+    flex-shrink: 0;
+    /* Prevent the image container from shrinking */
+    margin-left: 2rem;
+    /* Optional: Space between the heading and the image */
+}
+
+.imgchoose {
+    max-width: 50rem;
+    /* Make sure the image is responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 36px;
+    /* Optional: Rounded corners for the image */
+}
